@@ -1,10 +1,11 @@
-### DATABASE CREATION :
+### CREATING DATABASE :
   
 create database job_market;
 
 ### USING AND SELECTING OF DATASET :
   
 use job_market;
+
 select * from job_market_dataset;
 
 ### SQL QUERIES :
@@ -65,6 +66,15 @@ select company,max(year) as latest_year
 from job_market_dataset
 group by company;
 
+### TECHNOLOGIES USED :
+  
+SQL (MySQL/PostgreSQL/SQL Server), Database Management Systems, Aggregate Functions,
+Window Functions, CTEs and Subqueries.
+
+### DATASET INFORMATION :
+  
+The dataset contains Company Name, Job Category, Job Location, Employment Type, Experience
+Required, Job Posting Year, and other job-related attributes.
 
 ### CONCLUSION :
 
